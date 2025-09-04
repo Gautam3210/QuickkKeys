@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
-import logo1 from "./logo1.png";
+import logo1 from "./logo1.svg";
+import logo2 from "./logo2.png";
 import gmail_logo from "./gmail_logo.svg";
 import facebook_logo from "./facebook_logo.svg";
 import instagram_logo from "./instagram_logo.svg";
@@ -47,6 +48,7 @@ export const cityList = ['New York', 'Los Angeles', 'Houston', 'Chicago']
 export const assets = {
     logo,
     logo1,
+    logo2,
     gmail_logo,
     facebook_logo,
     instagram_logo,

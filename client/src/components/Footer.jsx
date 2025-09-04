@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='px-6 md:px-16 lg:px-24 xl:px-32 mt-60 text-sm text-gray-500'>
             <div className='flex flex-wrap justify-between items-start gap-8 pb-6 border-borderColor border-b'>
                 <div>
-                    <img src={assets.logo} alt="logo" className='h-8 md:h-9' />
+                    <img src={assets.logo2} alt="logo" className='h-10 md:h-9' />
                     <p className='max-w-80 mt-3'>
                         Premium car rental service with a wide selection of luxury and everyday vehicles for all your driving needs
                     </p>
@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
 
             <div className='flex flex-col md:flex-row gap-2 items-center justify-between py-5'>
-                <p>© {new Date().getFullYear()} <a href="https://prebuiltui.com">PrebuiltUI</a>. All rights reserved.</p>
+                <p>© {new Date().getFullYear()} <a href="https://prebuiltui.com">QuickKeys</a>. All rights reserved.</p>
                 <ul className='flex items-center gap-4'>
                     <li><a href="#">Privacy</a></li>
                     <li>|</li>
