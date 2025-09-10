@@ -211,7 +211,7 @@ const AddCar = () => {
         {/* car location  */}
 
         <div className="flex flex-col w-full">
-          <label>Fuel Type</label>
+          <label>Location</label>
           <select
             onChange={(e) => setCar({ ...car, location: e.target.value })}
             value={car.location}

@@ -38,7 +38,8 @@ const Sidebar = () => {
               image
                 ? URL.createObjectURL(image)
                 : user?.image ||
-                  "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=300"
+                  assets.unknown
+                  
             }
             alt=""
             className="h-9 md:h-14 w-9 md:w-14 rounded-full mx-auto"
