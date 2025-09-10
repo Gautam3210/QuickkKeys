@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 const Footer = () => {
   return (
-    <div className='px-6 md:px-16 lg:px-24 xl:px-32 mt-60 text-sm text-gray-500'>
+    <div className='px-6 md:px-16 lg:px-24 xl:px-32 mt-10 text-sm text-gray-500'>
             <div className='flex flex-wrap justify-between items-start gap-8 pb-6 border-borderColor border-b'>
                 <div>
                     <img src={assets.logo2} alt="logo" className='h-10 md:h-9' />
