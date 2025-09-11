@@ -32,7 +32,7 @@ export const registerUser = async (req, res)=>{
 
     const token = generateToken(user._id.toString())
 
-    res.json({success:true, token})
+    res.json({success:true, message:'You are logged in',token})
 
 
   }catch(error){

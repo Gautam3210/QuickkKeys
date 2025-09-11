@@ -20,11 +20,11 @@ const Login = () => {
       });
 
       if (data.success) {
-        navigate("/");
         setToken(data.token);
         localStorage.setItem("token", data.token);
         setShowLogin(false);
         toast.success(data.message);
+        navigate("/");
       } else {
         toast.error(data.message);
       }
@@ -50,6 +50,7 @@ const Login = () => {
           <div className="w-full">
             <p>Name</p>
             <input
+              id="name"
               onChange={(e) => setName(e.target.value)}
               value={name}
               placeholder="type here"
@@ -62,6 +63,7 @@ const Login = () => {
         <div className="w-full ">
           <p>Email</p>
           <input
+            id="email"
             onChange={(e) => setEmail(e.target.value)}
             value={email}
             placeholder="type here"
@@ -73,6 +75,7 @@ const Login = () => {
         <div className="w-full ">
           <p>Password</p>
           <input
+            id="password"
             onChange={(e) => setPassword(e.target.value)}
             value={password}
             placeholder="type here"
